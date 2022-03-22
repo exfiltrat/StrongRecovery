@@ -251,7 +251,7 @@ module.exports.getInput = async () => {
             type: 'string'
         }
     })
-    //const args = require('minimist')(process.argv.slice(2), options);
+    const args = require('minimist')(process.argv.slice(2), options);
 
     const { config } = require('./config');
     var rlt = {
